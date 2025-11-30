@@ -2,9 +2,11 @@
 .actions a:link,
 .action,
 .action:link,
+.actions button,
 button,
 .current,
-.actions label, button[type="submit"], button {
+.actions label,
+button[type="submit"] {
     border: none;
     background-image: none;
     box-shadow: none;
@@ -22,39 +24,28 @@ textarea {
 
 input {
     width: 96%;
-      border: 1px solid;
+    border: 1px solid;
     background-image: none;
     box-shadow: none;  
-
 }
 
 .actions input[type="checkbox"]{
         -webkit-appearance: checkbox;
         -moz-appearance: checkbox;
-
 }
 
 
 form.search input[type="text"] {
     border-top-color: initial;
-
 }
 
 .actions a:hover,
+.actions button:hover,
 a:hover,
 .actions input:hover,
 #dashboard a:hover,
 .actions a:focus,
-.actions input:focus,
-#dashboard a:focus,
-.actions a:active,
-.current,
-a.current,
-.current a:visited,
-.actions a:hover,
-.actions input:hover,
-#dashboard a:hover,
-.actions a:focus,
+.actions button:focus,
 .actions input:focus,
 #dashboard a:focus,
 .actions a:active,
@@ -62,11 +53,8 @@ a.current,
 a.current,
 .current a:visited,
 #dashboard .current,
-.actions a:active,
 #outer .current,
 #header .current,
-a.current,
-.current a:visited,
 span.unread,
 .replied,
 span.claimed,
@@ -78,9 +66,11 @@ dl.index dd,
 .unwrangled,
 .unreviewed,
 .ui-sortable li:hover,
-#header .primary .menu .current, button[type="submit"]:hover, button:hover {
-    border-color: initial;
-    box-shadow: none !important;
+#header .primary .menu .current,
+button[type="submit"]:hover,
+button:hover {
+  border-color: initial;
+  box-shadow: none !important;
 }
 
 #header .primary,
@@ -106,9 +96,11 @@ fieldset dl dl,
 fieldset fieldset fieldset,
 fieldset fieldset dl dl,
 dd.hideme,
-form blockquote.userstuff, .delete a, span.delete, #header ul.primary  {
+form blockquote.userstuff,
+.delete a,
+span.delete,
+#header ul.primary {
     box-shadow: none;
-
 }
 
 .notice,
@@ -119,26 +111,16 @@ ul.notes,
 .comment_error,
 .alert.flash,
 .actions a:hover,
+.actions button:hover,
 .actions input:hover,
 .actions a:focus,
+.actions button:focus,
 .actions input:focus,
 label.action:hover,
 .action:hover,
 .action:focus,
-.notice,
-.comment_notice,
-ul.notes,
-.caution,
-.error,
-.comment_error,
-.alert.flash,
-.actions a:hover,
-.actions input:hover,
-.actions a:focus,
-.actions input:focus,
-label.action:hover,
-.action:hover,
-.action:focus, button[type="submit"]:hover, button:hover {
+button[type="submit"]:hover,
+button:hover {
     border: none;
     box-shadow: none;
 }
@@ -152,26 +134,22 @@ form.verbose legend,
 .actions a,
 .actions a:link,
 .action,
+.actions button,
 .action:link,
 input[type="submit"],
 button,
 .current,
-.actions label,
-    {
+.actions label {
     border: none;
     border-bottom: none;
     background-image: none;
     box-shadow: none;
-
 }
-
 
 #header .menu,
 #small_login,
 #header .dropdown:hover .current+.menu {
-
     box-shadow: none;
     background-image: none;
     filter: none;
-
 }
